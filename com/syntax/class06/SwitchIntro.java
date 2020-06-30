@@ -4,51 +4,61 @@ public class SwitchIntro {
 	
 	public static void main(String[] args) {
 		
-		
-		
-		
-		
-		
-		//}else if (day == 5) {
-		//    dayName="Friday";
-	    //}else if (day == 6) {
-		 //   dayName="Sturday";
-	    //}else if (day == 7) {
-	    //	dayName="Sunday";
-		//}else {
-		//	dayName="Involid";
-			
-		switch(day)	{
-		
+		int day = 6;
+		String dayName;
+
+//		if (day == 1) {
+//			dayName = "Monday";
+//		} else if (day == 2) {
+//			dayName = "Tuesday";
+//		} else if (day == 3) {
+//			dayName = "Wednesday";
+//		} else if (day == 4) {
+//			dayName = "Thursday";
+//		} else if (day == 5) {
+//			dayName = "Friday";
+//		} else if (day == 6) {
+//			dayName = "Saturday";
+//		} else if (day == 7) {
+//			dayName = "Sunday";
+//		} else {
+//			dayName = "Invalid";
+//	}
+//
+//	System.out.println("Today is " + dayName);
+//
+//		System.out.println("-----Using Switch Case-----");
+
+		switch (day) {
 		case 1:
-			dayName  = "Monday";
+			dayName = "Monday";
 			break;
 		case 2:
-			dayName  = "Thuesday";
+			dayName = "Tuesday";
 			break;
 		case 3:
-			dayName  = "Wednsday";
+			dayName = "Wednesday";
 			break;
 		case 4:
-			dayName  = "Thursday";
+			dayName = "Thursday";
 			break;
 		case 5:
-			dayName  = "Friday";
+			dayName = "Friday";
 			break;
 		case 6:
-			dayName  = "Suturday";
+			dayName = "Saturday";
 			break;
 		case 7:
-			dayName  = "Monday";
-		break;
+			dayName = "Sunday";
+			break;
 		default:
-			dayName  = "Invalid";
+			dayName = "Invalid";
 			break;
 		}
-		System.out.println("Today is" +dayName);
-		System.out.println("------Using Switch Case-----");
-		
-		
-		}
-		}
+		System.out.println("Today is " + dayName);
 	}
+}
+		
+		
+		
+		
