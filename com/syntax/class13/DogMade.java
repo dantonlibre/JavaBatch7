@@ -22,15 +22,6 @@ public class DogMade {
 		dogy2.findsDrags();
 		dogy2.jamp();
 		dogy2.doesntStink();
-		
-		
-				
-		
-		
-		
-		
-		
-		
-		
+	
 	}
 	}

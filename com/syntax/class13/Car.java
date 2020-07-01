@@ -7,7 +7,8 @@ public class Car {
 	String model;
 	String color;
 	int year;
-	int speed;	
+	int speed;
+	
 	public static void main(String[] args) {
 	//define behavior in a from of methods
 		System.out.println("Hello, i am code from main method");
