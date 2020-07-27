@@ -1,32 +1,38 @@
 package com.syntax.class13;
 
 public class Main {
-//	Create a class named 'Main' with specific attributes.
-//	Create two objects of that class in which you will be assigning the following values and then print them.
-//	carColor='Black'
-//	carYear=2019
-//	carMake='BMW'
-//
-//	carColor='White'
-//	carYear=2018
-//	carMake='Toyota'
-//
-//	Expected Output:
-//	Car color is Black and car year is 2019 and car model is BMW
-//	Car color is White and car year is 2018 and car model is Toyota
+
+	String breed, name, color;
 	
-	 Car car1=new Car();
-	 car1.make="Tesla";
-	 car1.model="X";
-	 car1.color="Red";
-	 car1.year=2020;
-	 car1.speed=200;
-	 System.out.println("Make of first car is " + car1.make+ " and model is " 
-	 + car1.model+" and it is in " + car1.color+ " color");
+	public static void main(String[] args) {
+
+	 Dog dog1=new Dog();
+	 dog1.name="Husky";
+	 dog1.breed="Dogs";
+	 dog1.color="White";
 	 
-	
-		
-	
+	 dog1.bark();
+	 dog1.run();
+	 dog1.play();
+
+	 Dog dog2=new Dog();
+	 dog2.name="Bulldog";
+	 dog2.breed="Dogs";
+	 dog2.color="Black";
+	 
+	 dog2.bark();
+	 dog2.run();
+	 dog2.play();
+	 
+	 Dog dog3=new Dog();
+	 dog3.name="Labrador";
+	 dog3.breed="Dogs";
+	 dog3.color="Gray";
+	 
+	 dog3.bark();
+	 dog3.run();
+	 dog3.play();
 	
 	}
+
 }

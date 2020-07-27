@@ -30,7 +30,7 @@ public class CarFactory {
  
  System.out.println("---Accessing methods from Car class using car2 ---");
  car2.drive();
- car2.reverse();
+car2.reverse();
  car2.transportPeaople();
  
  

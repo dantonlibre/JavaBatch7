@@ -15,7 +15,11 @@ public class CalculatorTest {
 	c.div(10, 2);
 		
 	c.mult(10, 10);	
-		
+	
+	c.mult(10,  9 );
+	
+	
+	//c.mult(10); CE: number of values must match number of parameters
 	}
 	
 }
