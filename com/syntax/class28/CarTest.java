@@ -3,16 +3,12 @@ package com.syntax.class28;
 public class CarTest {
 
 	public static void main(String[] args) {
-		
-		Car car = new Car(40000.0, "grey", 25);
-		System.out.println(car.calculateSalePrice());
-		
-		Car sedan= new Sedan(500000.0, "grey", 25);
-		System.out.println("sedan's price is " + sedan.calculateSalePrice());
-		
-		Car truck = new Truck(800000.0, "white", 2500);
-		System.out.println("truck price is" + truck.calculateSalePrice());	
+
+		Car truck = new Sedan(35000.0, "White", 16000.0);
+		System.out.println("The new price of Truck with discaunt is " + truck.calculateSalePrice());
+
+		Car sedan = new Sedan(3500.0, "Purple", 177.2);
+		System.out.println("The new price of Sedan with discaunt is " + sedan.calculateSalePrice());
+
 	}
-	
-	
 }

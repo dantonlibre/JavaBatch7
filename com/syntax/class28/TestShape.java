@@ -9,7 +9,7 @@ public class TestShape {
 		
 		Shape square =new Square();
 		square.calculateArea();
-		square.calculatePerimiter();
+  	    square.calculatePerimiter();
 	}
 }
 
