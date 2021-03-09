@@ -46,7 +46,7 @@ public class ArrayIntro {
 				System.out.println(car);
 
 				System.out.println("----------------------");
-
+				
 				char[] letters = new char[4];
 				letters[0] = 'A';
 				letters[3] = 'B';
@@ -60,5 +60,5 @@ public class ArrayIntro {
 
 				System.out.println("printing after re-assigning " + letters[2]);
 			}
-
+	
 		}
